@@ -1,19 +1,17 @@
 {
   "summary": {
     "title": "Salesforce Threat Model",
-    "owner": "Mike Goodwin",
+    "owner": "TBD",
     "description": "A sample model of a web application, with a queue-decoupled background process.",
     "id": 0
   },
   "detail": {
     "contributors": [
       {
-        "name": "Tom Brown",
-        "$$hashKey": "object:11"
+        "name": "Tom Brown"
       },
       {
-        "name": "Albert Moneypenny",
-        "$$hashKey": "object:12"
+        "name": "Albert Moneypenny"
       }
     ],
     "diagrams": [
@@ -235,8 +233,7 @@
                   "title": "Poison messages 1",
                   "type": "Denial of service",
                   "description": "An attacker could generate a malicious message that the Background Worker cannot process.",
-                  "mitigation": "Implement a poison message queue where messages are placed after a fixed number of retries.",
-                  "$$hashKey": "object:228"
+                  "mitigation": "Implement a poison message queue where messages are placed after a fixed number of retries."
                 },
                 {
                   "status": "Open",
@@ -244,8 +241,7 @@
                   "mitigation": "Validate the content of all messages, before processing. Reject any message that have invalid content and log the rejection. Do not log the malicious content - instead log a description of the error.",
                   "type": "Denial of service",
                   "title": "Poison messages 2",
-                  "description": "An attacker could generate a malicious message that the Background Worker cannot process.",
-                  "$$hashKey": "object:229"
+                  "description": "An attacker could generate a malicious message that the Background Worker cannot process."
                 }
               ],
               "privilegeLevel": "executionContext =Limited",
@@ -985,10 +981,9 @@
         "size": {
           "height": 594,
           "width": 860
-        },
-        "$$hashKey": "object:15"
+        }
       }
     ],
-    "reviewer": "Jane Smith"
+    "reviewer": "TBD"
   }
 }

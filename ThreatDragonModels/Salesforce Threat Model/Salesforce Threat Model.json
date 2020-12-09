@@ -131,6 +131,38 @@
                   "type": "Information disclosure",
                   "description": "The Web Application Config stores credentials used  by the Web App to access the message queue. These could be stolen by an attacker and used to read confidential data or place poison message on the queue.",
                   "mitigation": "The Message Queue credentials should be encrypted."
+                },
+                {
+                  "ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
+                  "title": "Generic tampering threat",
+                  "type": "Tampering",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic tampering threat"
+                },
+                {
+                  "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
+                  "title": "Generic repudiation threat",
+                  "type": "Repudiation",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic repudiation threat"
+                },
+                {
+                  "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
+                  "title": "Generic informtion disclosure threat",
+                  "type": "Information disclosure",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic information disclosure threat"
+                },
+                {
+                  "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
+                  "title": "Generic DoS threat",
+                  "type": "Denial of service",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic DoS threat"
                 }
               ],
               "storesCredentials": true,
@@ -335,10 +367,6 @@
             },
             {
               "type": "tm.Boundary",
-              "size": {
-                "width": 10,
-                "height": 10
-              },
               "smooth": true,
               "source": {
                 "x": 120,
@@ -347,6 +375,10 @@
               "target": {
                 "x": 300,
                 "y": 150
+              },
+              "size": {
+                "width": 10,
+                "height": 10
               },
               "vertices": [
                 {
@@ -360,10 +392,6 @@
             },
             {
               "type": "tm.Boundary",
-              "size": {
-                "width": 10,
-                "height": 10
-              },
               "smooth": true,
               "source": {
                 "x": 350,
@@ -372,6 +400,10 @@
               "target": {
                 "x": 430,
                 "y": 180
+              },
+              "size": {
+                "width": 10,
+                "height": 10
               },
               "vertices": [
                 {
@@ -385,16 +417,16 @@
             },
             {
               "type": "tm.Flow",
-              "size": {
-                "width": 10,
-                "height": 10
-              },
               "smooth": true,
               "source": {
                 "id": "b394f9f7-07ca-42bc-b616-ad77c6fbfcce"
               },
               "target": {
                 "id": "0d9909ea-1398-4898-be81-cf1c808324dc"
+              },
+              "size": {
+                "width": 10,
+                "height": 10
               },
               "vertices": [
                 {
@@ -442,16 +474,16 @@
             },
             {
               "type": "tm.Flow",
-              "size": {
-                "width": 10,
-                "height": 10
-              },
               "smooth": true,
               "source": {
                 "id": "0d9909ea-1398-4898-be81-cf1c808324dc"
               },
               "target": {
                 "id": "ec574fb4-87e7-494b-88dc-2a3c99172067"
+              },
+              "size": {
+                "width": 10,
+                "height": 10
               },
               "vertices": [
                 {
@@ -496,16 +528,16 @@
             },
             {
               "type": "tm.Flow",
-              "size": {
-                "width": 10,
-                "height": 10
-              },
               "smooth": true,
               "source": {
                 "id": "ec574fb4-87e7-494b-88dc-2a3c99172067"
               },
               "target": {
                 "id": "3e75b596-9c70-41b6-a2cf-a15899c254d3"
+              },
+              "size": {
+                "width": 10,
+                "height": 10
               },
               "vertices": [
                 {
@@ -550,10 +582,6 @@
             },
             {
               "type": "tm.Boundary",
-              "size": {
-                "width": 10,
-                "height": 10
-              },
               "smooth": true,
               "source": {
                 "x": 490,
@@ -562,6 +590,10 @@
               "target": {
                 "x": 680,
                 "y": 180
+              },
+              "size": {
+                "width": 10,
+                "height": 10
               },
               "vertices": [
                 {
@@ -575,16 +607,16 @@
             },
             {
               "type": "tm.Flow",
-              "size": {
-                "width": 10,
-                "height": 10
-              },
               "smooth": true,
               "source": {
                 "id": "936557f9-22e2-4bac-bb70-0089c5c2fbe1"
               },
               "target": {
                 "id": "3e75b596-9c70-41b6-a2cf-a15899c254d3"
+              },
+              "size": {
+                "width": 10,
+                "height": 10
               },
               "vertices": [
                 {
@@ -629,10 +661,6 @@
             },
             {
               "type": "tm.Boundary",
-              "size": {
-                "width": 10,
-                "height": 10
-              },
               "smooth": true,
               "source": {
                 "x": 250,
@@ -641,6 +669,10 @@
               "target": {
                 "x": 510,
                 "y": 450
+              },
+              "size": {
+                "width": 10,
+                "height": 10
               },
               "vertices": [
                 {
@@ -658,16 +690,16 @@
             },
             {
               "type": "tm.Flow",
-              "size": {
-                "width": 10,
-                "height": 10
-              },
               "smooth": true,
               "source": {
                 "id": "0d9909ea-1398-4898-be81-cf1c808324dc"
               },
               "target": {
                 "id": "b394f9f7-07ca-42bc-b616-ad77c6fbfcce"
+              },
+              "size": {
+                "width": 10,
+                "height": 10
               },
               "vertices": [
                 {
@@ -715,16 +747,16 @@
             },
             {
               "type": "tm.Flow",
-              "size": {
-                "width": 10,
-                "height": 10
-              },
               "smooth": true,
               "source": {
                 "id": "bdd3e115-4b92-4020-90b7-c3351dba292b"
               },
               "target": {
                 "id": "0d9909ea-1398-4898-be81-cf1c808324dc"
+              },
+              "size": {
+                "width": 10,
+                "height": 10
               },
               "vertices": [
                 {
@@ -760,16 +792,16 @@
             },
             {
               "type": "tm.Flow",
-              "size": {
-                "width": 10,
-                "height": 10
-              },
               "smooth": true,
               "source": {
                 "id": "a25bbb4e-093f-4238-a620-31efdee452dc"
               },
               "target": {
                 "id": "3e75b596-9c70-41b6-a2cf-a15899c254d3"
+              },
+              "size": {
+                "width": 10,
+                "height": 10
               },
               "vertices": [
                 {
@@ -805,16 +837,16 @@
             },
             {
               "type": "tm.Flow",
-              "size": {
-                "width": 10,
-                "height": 10
-              },
               "smooth": true,
               "source": {
                 "id": "0d9909ea-1398-4898-be81-cf1c808324dc"
               },
               "target": {
                 "id": "936557f9-22e2-4bac-bb70-0089c5c2fbe1"
+              },
+              "size": {
+                "width": 10,
+                "height": 10
               },
               "vertices": [
                 {
@@ -850,16 +882,16 @@
             },
             {
               "type": "tm.Flow",
-              "size": {
-                "width": 10,
-                "height": 10
-              },
               "smooth": true,
               "source": {
                 "id": "936557f9-22e2-4bac-bb70-0089c5c2fbe1"
               },
               "target": {
                 "id": "0d9909ea-1398-4898-be81-cf1c808324dc"
+              },
+              "size": {
+                "width": 10,
+                "height": 10
               },
               "vertices": [
                 {
@@ -894,16 +926,16 @@
             },
             {
               "type": "tm.Flow",
-              "size": {
-                "width": 10,
-                "height": 10
-              },
               "smooth": true,
               "source": {
                 "id": "3e75b596-9c70-41b6-a2cf-a15899c254d3"
               },
               "target": {
                 "id": "936557f9-22e2-4bac-bb70-0089c5c2fbe1"
+              },
+              "size": {
+                "width": 10,
+                "height": 10
               },
               "vertices": [
                 {
@@ -937,16 +969,16 @@
             },
             {
               "type": "tm.Flow",
-              "size": {
-                "width": 10,
-                "height": 10
-              },
               "smooth": true,
               "source": {
                 "id": "0d9909ea-1398-4898-be81-cf1c808324dc"
               },
               "target": {
                 "id": "3e75b596-9c70-41b6-a2cf-a15899c254d3"
+              },
+              "size": {
+                "width": 10,
+                "height": 10
               },
               "vertices": [],
               "id": "b6009d27-e5e9-4990-b8e1-cf2b17765129",
